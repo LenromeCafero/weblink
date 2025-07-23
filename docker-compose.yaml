@@ -5,8 +5,8 @@ services:
     build:
       context: .
     ports:
-      - "8080:80"
-      - "443:443"
+      - "28080:80"
+      - "24433:443"
     environment:
       - ENABLE_SSL=${ENABLE_SSL:-false}
       # Set your public websocket url here, example:
